@@ -1,0 +1,15 @@
+{
+    "color_scheme": "Packages/Color Scheme - Default/Mariana.tmTheme",
+    "theme": "Adaptive.sublime-theme",
+    "font_face": "PragmataPro",
+    // "font_face": "D2Coding",
+    "font_size": 14,
+    "translate_tabs_to_spaces": true,
+    "highlight_line": true,
+    "draw_white_space": "all",
+    "trim_trailing_white_space_on_save": true,
+    "shift_tab_unindent": true,
+    "auto_find_in_selection": true,
+    "word_wrap": false,
+    "always_show_minimap_viewport": true
+}

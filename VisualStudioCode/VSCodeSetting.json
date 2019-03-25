@@ -1,0 +1,24 @@
+{
+    "files.trimTrailingWhitespace": true,
+    "editor.trimAutoWhitespace": true,
+    "editor.renderWhitespace": "all",
+    "editor.fontSize": 17,
+
+    "editor.fontFamily": "D2Coding Ligature, PragmataPro, Consolas",
+    "editor.fontLigatures": true,
+
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "editor.roundedSelection": false,
+    "editor.acceptSuggestionOnEnter": "on",
+    "diffEditor.ignoreTrimWhitespace": true,
+    "editor.minimap.enabled": true,
+    "editor.minimap.renderCharacters": false,
+    "files.autoSave": "off",
+    "workbench.colorTheme": "Tomorrow Night",
+    "workbench.iconTheme": "vs-minimal",
+
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "team.showWelcomeMessage": false
+}

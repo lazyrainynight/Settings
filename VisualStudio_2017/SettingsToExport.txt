@@ -1,0 +1,9 @@
+Environment
+    Fonts and Colors
+    General
+    Keyboards
+    Quick Launch
+    Tabs and Windows
+
+Text Editor
+    "everything"
