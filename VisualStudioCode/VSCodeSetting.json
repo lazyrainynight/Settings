@@ -15,10 +15,21 @@
     "editor.minimap.enabled": true,
     "editor.minimap.renderCharacters": false,
     "files.autoSave": "off",
-    "workbench.colorTheme": "Tomorrow Night",
+    "workbench.colorTheme": "Tomorrow Night Bright",
     "workbench.iconTheme": "vs-minimal",
 
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
-    "team.showWelcomeMessage": false
+    "team.showWelcomeMessage": false,
+    "workbench.colorCustomizations": {
+    },
+    "editor.tokenColorCustomizations": {
+        "functions": "#46B8C1",
+        "numbers": "#B5CEA8",
+        "strings": "#D69D85",
+        "types": "#E1D79B",
+        "variables": "#C8C8C8",
+        "keywords": "#569CD6",
+        "comments": "#656565"
+    }
 }
