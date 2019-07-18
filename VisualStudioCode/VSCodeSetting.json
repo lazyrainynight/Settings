@@ -203,13 +203,13 @@
             {
                 "scope": "meta.function",
                 "settings": {
-                    "foreground": "#46B8C1"
+                    // "foreground": "#46B8C1"
                 }
             },
             {
                 "scope": "meta.function-call",
                 "settings": {
-                    "foreground": "#46B8C1"
+                    // "foreground": "#46B8C1"
                 }
             },
             {
