@@ -26,5 +26,7 @@
 	st = status
 	co = checkout
 	cm = commit
-	br = branch -a
+	br = branch
+	rb = rebase
+	sw = switch
 	dfs = diff --staged
