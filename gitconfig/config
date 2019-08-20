@@ -28,5 +28,7 @@
 	cm = commit
 	br = branch
 	rb = rebase
+	rst = restore
+	pushnov = push --no-verify
 	sw = switch
 	dfs = diff --staged
