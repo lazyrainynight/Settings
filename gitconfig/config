@@ -32,3 +32,4 @@
 	pushnov = push --no-verify
 	sw = switch
 	dfs = diff --staged
+	pushf = push
