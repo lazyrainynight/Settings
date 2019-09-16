@@ -30,6 +30,8 @@
 	rb = rebase
 	rst = restore
 	pushnov = push --no-verify
+	stashunt = stash --include-untracked
+	stashall = stash --include-untracked
 	sw = switch
 	dfs = diff --staged
 	pushf = push
