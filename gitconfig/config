@@ -26,12 +26,14 @@
 	st = status
 	co = checkout
 	cm = commit
+	cane = commit --amend --no-edit
 	br = branch
 	rb = rebase
 	rst = restore
+	pushf = push -f
 	pushnov = push --no-verify
+	pushfnov = push -f --no-verify
 	stashunt = stash --include-untracked
 	stashall = stash --include-untracked
 	sw = switch
 	dfs = diff --staged
-	pushf = push
