@@ -23,6 +23,9 @@
 #[format]
 #	pretty = format:%C(green)%ad %C(yellow)%h %C(cyan)%an %C(white)%s %C(red)%d
 
+[checkout]
+	defaultRemote = origin
+
 [alias]
 	lg = log --graph --pretty='format:%C(green)%ad %C(yellow)%h %C(cyan)%an %C(white)%s %C(red)%d' --date='format:%y-%m/%d %H:%m'
 	st = status
@@ -40,3 +43,4 @@
 	stashall = stash --include-untracked
 	sw = switch
 	dfs = diff --staged
+	cleanup = !git stash --include-untracked && git stash drop
