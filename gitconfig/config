@@ -39,6 +39,7 @@
 	pushnov = push --no-verify
 	pushfnov = push -f --no-verify
 	pushnovf = push -f --no-verify
+	nov = --no-verify
 	stashunt = stash --include-untracked
 	stashall = stash --include-untracked
 	sw = switch
