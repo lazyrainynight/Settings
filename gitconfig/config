@@ -45,3 +45,4 @@
 	sw = switch
 	dfs = diff --staged
 	cleanup = !git stash --include-untracked && git stash drop
+	nah = !git reset --hard && git clean -df
