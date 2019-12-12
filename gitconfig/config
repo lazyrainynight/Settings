@@ -34,6 +34,7 @@
 	cane = commit --amend --no-edit
 	br = branch
 	rb = rebase
+	rsh = reset --hard
 	rst = restore
 	pushf = push -f
 	pushnov = push --no-verify
