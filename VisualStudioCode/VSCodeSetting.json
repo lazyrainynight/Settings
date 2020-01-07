@@ -4,7 +4,8 @@
     "editor.renderWhitespace": "all",
     "editor.fontSize": 17,
 
-    "editor.fontFamily": "D2Coding Ligature, PragmataPro, Consolas",
+    "editor.fontFamily": "'PragmataPro Mono', 'D2Coding Ligature', PragmataPro, D2Coding, Consolas",
+    "terminal.integrated.fontFamily": "'PragmataPro Mono', 'D2Coding Ligature', PragmataPro, D2Coding, Consolas",
     "editor.fontLigatures": true,
 
     "editor.insertSpaces": true,
