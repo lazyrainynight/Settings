@@ -1,6 +1,9 @@
 [pull]
 	rebase = true
 
+[gc]
+	autoDetach = false
+
 [diff]
 	tool = bc4
 [difftool]
