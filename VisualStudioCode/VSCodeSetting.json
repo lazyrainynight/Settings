@@ -1,29 +1,90 @@
 {
-    "files.trimTrailingWhitespace": true,
-    "editor.trimAutoWhitespace": true,
-    "editor.renderWhitespace": "all",
-    "editor.fontSize": 17,
+    // settings
+    "workbench.settings.editor": "json",
 
-    "editor.fontFamily": "'PragmataPro Mono', 'D2Coding Ligature', PragmataPro, D2Coding, Consolas",
-    "terminal.integrated.fontFamily": "'PragmataPro Mono', 'D2Coding Ligature', PragmataPro, D2Coding, Consolas",
-    "editor.fontLigatures": true,
 
-    "editor.insertSpaces": true,
-    "editor.detectIndentation": false,
-    "editor.roundedSelection": false,
-    "editor.acceptSuggestionOnEnter": "on",
-    "diffEditor.ignoreTrimWhitespace": true,
+    // ************
+    // ** EDITOR **
+    // ************
+
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.renderIndentGuides": true,
+    "editor.renderWhitespace": "boundary",
     "editor.minimap.enabled": true,
     "editor.minimap.renderCharacters": false,
+    "editor.fontSize": 19,
+    "editor.fontFamily": "'PragmataPro Mono', 'D2Coding Ligature', PragmataPro, D2Coding, Consolas",
+    "editor.fontLigatures": true,
+    "editor.multiCursorModifier": "alt",
+    "editor.copyWithSyntaxHighlighting": true,
+    "editor.detectIndentation": false,
+    "editor.roundedSelection": false,
+    "editor.suggestSelection": "first",
+
+
+    // ***************
+    // ** WORKBENCH **
+    // ***************
+
     "files.autoSave": "off",
-    "workbench.colorTheme": "Tomorrow Night Bright",
-    "workbench.iconTheme": "vs-minimal",
+    "files.associations": {
+        "Dockerfile-*": "dockerfile",
+        "Dockerfile_*": "dockerfile"
+    },
+    "files.trimTrailingWhitespace": true,
+
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+
+    "workbench.editor.closeEmptyGroups": false,
+    "workbench.tips.enabled": true,
+    "workbench.startupEditor": "readme",
+
+    // NPM
+    "npm.enableScriptExplorer": true,
+    "npm.packageManager": "npm",
+
+    // GIT
+    "git.autofetch": false,
+    "git.enableSmartCommit": false,
+    "git.defaultCloneDirectory": "C:\\MyDev\\",
+
+    // DEBUG
+    "debug.node.autoAttach": "on",
+    "debug.toolBarLocation": "docked",
+
+
+    // **************
+    // ** TERMINAL **
+    // **************
+
+    "terminal.integrated.fontFamily": "'PragmataPro Mono', 'D2Coding Ligature', PragmataPro, D2Coding, Consolas",
+    "terminal.integrated.showExitAlert": false,
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+
+
+    // ***************
+    // ** TELEMETRY **
+    // ***************
 
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
-    "team.showWelcomeMessage": false,
+
+
+    // ***********
+    // ** COLOR **
+    // ***********
+
+    "workbench.colorTheme": "Default Dark+",
+
     "workbench.colorCustomizations": {
+        "[Default Dark+]": {
+            "statusBar.background": "#518181",
+        },
+        "statusBar.background": "#518181",
+        "tab.activeBackground": "#818181",
+        "gitDecoration.ignoredResourceForeground": "#816149"
     },
+
     "editor.tokenColorCustomizations": {
         "functions": "#46B8C1",
         "numbers": "#B5CEA8",
@@ -334,5 +395,16 @@
                 }
             }
         ]
+    },
+
+
+    // *************************
+    // ** SPECIFIC FILE TYPES **
+    // *************************
+
+    // MARKDOWN
+    "[markdown]":{
+        "editor.wordWrap": "on",
+        "editor.quickSuggestions": false
     }
 }
