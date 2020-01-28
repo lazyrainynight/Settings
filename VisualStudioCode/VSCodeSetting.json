@@ -38,6 +38,7 @@
     "workbench.editor.closeEmptyGroups": false,
     "workbench.tips.enabled": true,
     "workbench.startupEditor": "readme",
+    "workbench.iconTheme": "vscode-icons",
 
     // NPM
     "npm.enableScriptExplorer": true,
@@ -74,7 +75,8 @@
     // ** COLOR **
     // ***********
 
-    "workbench.colorTheme": "Default Dark+",
+    "workbench.colorTheme": "Tomorrow Night Bright",
+    // "workbench.colorTheme": "Default Dark+",
 
     "workbench.colorCustomizations": {
         "[Default Dark+]": {
