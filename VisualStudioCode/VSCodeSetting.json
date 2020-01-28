@@ -2,12 +2,18 @@
     // settings
     "workbench.settings.editor": "json",
 
+    // theme
+    "workbench.colorTheme": "Tomorrow Night Bright",
+
+    // icon
+    "workbench.iconTheme": "vscode-icons",
+
 
     // ************
     // ** EDITOR **
     // ************
 
-    "editor.cursorSmoothCaretAnimation": true,
+    "editor.cursorSmoothCaretAnimation": false,
     "editor.renderIndentGuides": true,
     "editor.renderWhitespace": "boundary",
     "editor.minimap.enabled": true,
@@ -38,7 +44,6 @@
     "workbench.editor.closeEmptyGroups": false,
     "workbench.tips.enabled": true,
     "workbench.startupEditor": "readme",
-    "workbench.iconTheme": "vscode-icons",
 
     // NPM
     "npm.enableScriptExplorer": true,
@@ -74,9 +79,6 @@
     // ***********
     // ** COLOR **
     // ***********
-
-    "workbench.colorTheme": "Tomorrow Night Bright",
-    // "workbench.colorTheme": "Default Dark+",
 
     "workbench.colorCustomizations": {
         "[Default Dark+]": {
