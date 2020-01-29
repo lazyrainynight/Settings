@@ -82,10 +82,10 @@
 
     "workbench.colorCustomizations": {
         "[Default Dark+]": {
-            "statusBar.background": "#518181",
+            "statusBar.background": "#213151",
         },
-        "statusBar.background": "#518181",
-        "tab.activeBackground": "#818181",
+        "statusBar.background": "#213151",
+        "tab.activeBackground": "#215141",
         "gitDecoration.ignoredResourceForeground": "#816149"
     },
 
