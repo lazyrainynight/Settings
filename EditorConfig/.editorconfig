@@ -17,6 +17,23 @@
 root = true
 
 
+[*.*]
+
+indent_style = space
+indent_size = 4
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+
+[*.py]
+
+indent_style = space
+indent_size = 4
+trim_trailing_whitespace = true
+insert_final_newline = true
+max_line_length = 180
+
+
 [*.ts]
 
 indent_style = space
@@ -63,7 +80,7 @@ indent_style = space
 indent_size = 4
 trim_trailing_whitespace = true
 insert_final_newline = true
-max_line_length = 200
+max_line_length = 240
 
 
 
@@ -71,22 +88,22 @@ max_line_length = 200
 #### Naming conventions - https://docs.microsoft.com/en-us/visualstudio/ide/editorconfig-naming-conventions ####
 ################################################################################################################
 
-# public symbols must be capitalized
-dotnet_naming_rule.public_members_must_be_capitalized.symbols = public_symbols
-dotnet_naming_symbols.public_symbols.applicable_kinds = class
-dotnet_naming_symbols.public_symbols.applicable_accessibilities = public
-dotnet_naming_rule.public_members_must_be_capitalized.style = first_word_upper_case_style
-dotnet_naming_style.first_word_upper_case_style.capitalization = first_word_upper
-dotnet_naming_rule.public_members_must_be_capitalized.severity = suggestion
+# # public symbols must be capitalized
+# dotnet_naming_rule.public_members_must_be_capitalized.symbols = public_symbols
+# dotnet_naming_symbols.public_symbols.applicable_kinds = class
+# dotnet_naming_symbols.public_symbols.applicable_accessibilities = public
+# dotnet_naming_rule.public_members_must_be_capitalized.style = first_word_upper_case_style
+# dotnet_naming_style.first_word_upper_case_style.capitalization = first_word_upper
+# dotnet_naming_rule.public_members_must_be_capitalized.severity = suggestion
 
-# private field must be prefixed by underscore
-dotnet_naming_rule.private_field_must_be_prefixed_by_underscore.symbols = private_fields
-dotnet_naming_symbols.private_fields.applicable_kinds = field
-dotnet_naming_symbols.private_fields.applicable_accessibilities = private
-dotnet_naming_rule.private_field_must_be_prefixed_by_underscore.style = prefixed_by_underscore
-dotnet_naming_style.prefixed_by_underscore.capitalization = camel_case
-dotnet_naming_style.prefixed_by_underscore.required_prefix = _
-dotnet_naming_rule.private_field_must_be_prefixed_by_underscore.severity = suggestion
+# # private field must be prefixed by underscore
+# dotnet_naming_rule.private_field_must_be_prefixed_by_underscore.symbols = private_fields
+# dotnet_naming_symbols.private_fields.applicable_kinds = field
+# dotnet_naming_symbols.private_fields.applicable_accessibilities = private
+# dotnet_naming_rule.private_field_must_be_prefixed_by_underscore.style = prefixed_by_underscore
+# dotnet_naming_style.prefixed_by_underscore.capitalization = camel_case
+# dotnet_naming_style.prefixed_by_underscore.required_prefix = _
+# dotnet_naming_rule.private_field_must_be_prefixed_by_underscore.severity = suggestion
 
 
 
