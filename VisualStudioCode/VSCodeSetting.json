@@ -64,6 +64,7 @@
     // **************
 
     "terminal.integrated.fontFamily": "'PragmataPro Mono', 'D2Coding Ligature', PragmataPro, D2Coding, Consolas",
+    "terminal.integrated.fontSize": 17,
     "terminal.integrated.showExitAlert": false,
     "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
 
