@@ -39,6 +39,7 @@
 	rb = rebase
 	rsh = reset --hard
 	rst = restore
+	rmt = remote -v
 	pushf = push -f
 	pushnov = push --no-verify
 	pushfnov = push -f --no-verify
