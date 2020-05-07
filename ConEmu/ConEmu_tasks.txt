@@ -1,0 +1,3 @@
+pwsh.exe -new_console:a -new_console:d:C:\MyDev
+
+pwsh.exe -new_console:a -new_console:d:C:\Src -new_console:s50H
