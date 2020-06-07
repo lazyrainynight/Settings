@@ -411,5 +411,10 @@
     "[markdown]":{
         "editor.wordWrap": "on",
         "editor.quickSuggestions": false
-    }
+    },
+
+    // **************
+    // ** Prettier **
+    // **************
+    "prettier.tabWidth": 4,
 }
