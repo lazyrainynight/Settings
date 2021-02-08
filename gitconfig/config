@@ -4,6 +4,10 @@
 [gc]
 	autoDetach = false
 
+[core]
+	autocrlf = true  <- ***  windows  ***
+    autocrlf = input <- *** linux/mac ***
+
 [diff]
 	tool = bc4
 [difftool]
