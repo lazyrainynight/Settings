@@ -6,7 +6,16 @@
 
 [core]
 	autocrlf = true  <- ***  windows  ***
-    autocrlf = input <- *** linux/mac ***
+	autocrlf = input <- *** linux/mac ***
+
+[checkout]
+	defaultRemote = origin
+
+[branch "master"]
+	mergeoptions = --ff-only
+
+[branch "main"]
+	mergeoptions = --ff-only
 
 [diff]
 	tool = bc4
@@ -29,9 +38,6 @@
 #	date = format:%y-%m/%d %H:%m
 #[format]
 #	pretty = format:%C(green)%ad %C(yellow)%h %C(cyan)%an %C(white)%s %C(red)%d
-
-[checkout]
-	defaultRemote = origin
 
 [alias]
 	lg = log --graph --pretty='format:%C(green)%ad %C(yellow)%h %C(cyan)%an %C(white)%s %C(red)%d' --date='format:%y-%m/%d %H:%m'
